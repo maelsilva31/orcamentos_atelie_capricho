@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Orçamentos de Costura</title>
+
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <img src="logo2.png" class="logo">
+
+    <h1>✂️Orçamento costuras</h1>
+
+    <input type="text" id="cliente" placeholder="Nome do cliente">
+
+    <div id="servicos">
+
+      <div class="servico">
+
+        <input type="text" class="descricao" placeholder="Descrição do serviço">
+
+        <input type="number" class="valor" placeholder="Valor">
+
+      </div>
+
+    </div>
+
+    <button onclick="adicionarServico()">
+      + Adicionar Serviço
+    </button>
+    <br></br>
+
+    <label>Data que deixou</label>
+    <input type="date" id="entrada">
+
+    <label>Data de entrega</label>
+    <input type="date" id="entrega">
+
+    <h2>Total: R$ <span id="total">0</span></h2>
+
+    <button onclick="salvar()">
+      Salvar
+    </button>
+
+    <button onclick="enviarWhats()">
+      📤 Enviar WhatsApp
+    </button>
+
+
+    <script src="script.js"></script>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+body{
+  background: #000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #FFD700;
+}
+
+.container{
+  max-width: 400px;
+  margin: auto;
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #FFD700;
+  box-shadow: 0 0 20px rgba(255,215,0,0.3);
+}
+.logo{
+  width: 140px;
+  display: block;
+  margin: 0 auto 20px;
+}
+h1{
+  text-align: center;
+  color: #FFD700;
+}
+
+h2{
+  color: #FFD700;
+}
+label{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+input,
+textarea{
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #FFD700;
+  background: #1a1a1a;
+  color: white;
+  box-sizing: border-box;
+}
+
+input::placeholder,
+textarea::placeholder{
+  color: #999;
+}
+button{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #FFD700;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover{
+  background: #e6c200;
+}
+
+#total{
+  color: #fff;
+  font-weight: bold;
+}
+.servico{
+  background: #1a1a1a;
+  border: 1px solid #FFD700;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.item-orcamento{
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.historico{
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.item-orcamento{
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.item-orcamento button{
+  background: red;
+}
