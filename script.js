@@ -107,7 +107,7 @@ function enviarWhats(){
   let valores = document.querySelectorAll('.valor');
 
   let mensagem =
-`Olá ${cliente}, tudo bem?
+`Olá ${cliente}, tudo bem?😄
 
 Aqui está o orçamento dos serviços que conversamos.
 
